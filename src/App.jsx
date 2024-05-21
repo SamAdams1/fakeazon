@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './reset.css'
 import './App.css'
-
+// hi
 async function search(value){
-  let data = await axios('https://dummyjson.com/products?limit=10&/search?q='+value)
+  let data = await axios('https://dummyjson.com/products?limit=10&/search?q=' + value)
   console.log(data.data.products)
 }
 
