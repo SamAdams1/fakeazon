@@ -9,3 +9,20 @@
   padding: 2em;
 }
 
+/* .itemGrid {
+  display: inline-flexbox;
+} */
+
+.itemCard {
+  text-align: center;
+  background-color: purple;
+  width: 12em;
+  height: 20em;
+  margin: 1.5em;
+}
+.itemCard > * {
+  padding-top: .5em;
+}
+.thumbnailImg {
+  width: 8em;
+}
